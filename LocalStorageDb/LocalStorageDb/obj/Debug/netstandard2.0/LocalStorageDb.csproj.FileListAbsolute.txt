@@ -1,0 +1,17 @@
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\bin\Debug\netstandard2.0\LocalStorageDb.deps.json
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\bin\Debug\netstandard2.0\LocalStorageDb.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\bin\Debug\netstandard2.0\LocalStorageDb.pdb
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.csproj.AssemblyReference.cache
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.AssemblyInfoInputs.cache
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.AssemblyInfo.cs
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.csproj.CoreCompileInputs.cache
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\XamlC.stamp
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\refint\LocalStorageDb.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\LocalStorageDb.pdb
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\ref\LocalStorageDb.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\Views\DetalleClientePage.xaml.g.cs
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb\obj\Debug\netstandard2.0\Views\ListadoClientesPage.xaml.g.cs

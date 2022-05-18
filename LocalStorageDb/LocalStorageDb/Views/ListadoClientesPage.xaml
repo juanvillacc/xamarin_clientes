@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LocalStorageDb.Views.ListadoClientesPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="ToolbarItem_Clicked"
+                      >
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="ImageSource">
+                    <On Platform="Ondroid" Value="plus.png"></On>
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>        
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Listado de clientes"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <ListView x:Name="LVClientes"
+                      ItemSelected="LVClientes_ItemSelected"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                Margin="20,0,0,0"
+                                Orientation="Horizontal"
+                                HorizontalOptions="FillAndExpand"
+                                >
+                                <Label 
+                                       HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="Center"
+                                       Text="{Binding Nombres}"
+                                       />
+                                <Label 
+                                       HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="Center"
+                                       Text="{Binding Apellidos}"
+                                       />
+                                <CheckBox 
+                                    HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="Center"
+                                        IsChecked="{Binding EstaActivo}"
+                                    ></CheckBox>
+                            </StackLayout>    
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
