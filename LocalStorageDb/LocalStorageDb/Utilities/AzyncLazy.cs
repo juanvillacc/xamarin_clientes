@@ -10,10 +10,6 @@ namespace LocalStorageDb.Utilities
     {
         readonly Lazy<Task<T>> instance;
 
-        public AzyncLazy(Func<T> factory)
-        {
-            instance = new Lazy<Task<T>>(() => Task.Run(factory));
-        }
 
         public AzyncLazy(Func<Task<T>> factory)
         {

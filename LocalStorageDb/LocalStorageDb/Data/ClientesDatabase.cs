@@ -50,5 +50,10 @@ namespace LocalStorageDb.Data
             return BaseDatos.Table<Cliente>().Where(x => x.EstaActivo).ToListAsync();
         }
 
+        internal Task BorrarCliente(Cliente cliente)
+        {
+            return BaseDatos.DeleteAsync(cliente);
+        }
+
     }
 }

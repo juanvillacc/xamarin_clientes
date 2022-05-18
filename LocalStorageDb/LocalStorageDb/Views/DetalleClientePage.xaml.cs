@@ -14,7 +14,7 @@ namespace LocalStorageDb.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetalleClientePage : ContentPage
     {
-        public DetalleClientePage()
+        public  DetalleClientePage()
         {
             InitializeComponent();
         }
@@ -24,6 +24,30 @@ namespace LocalStorageDb.Views
             var cliente = (Cliente)BindingContext;
             ClientesDatabase clientesDatabase = await ClientesDatabase.Instance;
             await clientesDatabase.GuardarCliente(cliente);
+
+            await CerrarPagina();
         }
+
+        private async void CancelarButton_Clicked(object sender, EventArgs e)
+        {
+            await CerrarPagina();
+        }
+
+        private async void btnBorrar_Clicked(object sender, EventArgs e)
+        {
+            ClientesDatabase clientesDatabase = await ClientesDatabase.Instance;
+            var cliente = (Cliente)BindingContext;
+            await clientesDatabase.BorrarCliente(cliente);
+            await CerrarPagina();
+        }
+
+        private async Task<bool> CerrarPagina()
+        {
+            await Navigation.PopAsync();
+            return true;
+            
+        }
+
+
     }
 }

@@ -636,3 +636,10 @@ C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\andro
 C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.Memory.dll
 C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\res\drawable\plus.png
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\Newtonsoft.Json.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.IdentityModel.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.IdentityModel.pdb
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.ServiceModel.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.ServiceModel.Http.dll
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.ServiceModel.pdb
+C:\temp\LocalStorageDb\LocalStorageDb\LocalStorageDb.Android\obj\Debug\120\android\assets\System.ServiceModel.Primitives.dll

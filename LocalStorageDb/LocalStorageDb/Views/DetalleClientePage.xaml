@@ -1,35 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LocalStorageDb.Views.DetalleClientePage">
+             x:Class="LocalStorageDb.Views.DetalleClientePage"
+             Title="Detalle cliente">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Detalle cliente"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label 
-                            HorizontalOptions="StartAndExpand"
-                            VerticalOptions="Center"
-                            Text="{Binding Nombres}"
-                            />
-            <Label 
-                                       HorizontalOptions="StartAndExpand"
-                                       VerticalOptions="Center"
-                                       Text="{Binding Apellidos}"
-                                       />
+            <Label Text="Nombres"
+                HorizontalOptions="Start" />
+            <Entry 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Text="{Binding Nombres}"
+                />
+            <Label Text="Apellidos"
+                 HorizontalOptions="Start" />
+            <Entry 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Text="{Binding Apellidos}"
+                />
             <CheckBox 
-                                    HorizontalOptions="StartAndExpand"
-                                       VerticalOptions="Center"
-                                        IsChecked="{Binding EstaActivo}"
-                                    ></CheckBox>
+                HorizontalOptions="StartAndExpand"
+                    IsChecked="{Binding EstaActivo}"
+                ></CheckBox>
             <Button 
-                Text="Borrar">
+                Clicked="btnBorrar_Clicked"
+                Text="Borrar" >
             </Button>
             <Button 
                 Text="Guardar" Clicked="GuadarButton_Clicked">
             </Button>
             <Button 
-                Text="Cancelar">
+                Text="Cancelar" Clicked="CancelarButton_Clicked">
             </Button>
         </StackLayout>
     </ContentPage.Content>

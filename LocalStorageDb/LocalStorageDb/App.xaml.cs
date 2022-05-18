@@ -11,7 +11,11 @@ namespace LocalStorageDb
         {
             InitializeComponent();
 
-            MainPage = new ListadoClientesPage();
+            MainPage = new NavigationPage(new ListadoClientesPage())
+            {
+                BarBackgroundColor = Color.Blue,
+                BarTextColor = Color.White,  
+            };
         }
 
         protected override void OnStart()

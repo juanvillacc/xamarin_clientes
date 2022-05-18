@@ -23,8 +23,10 @@ namespace LocalStorageDb.Views
         {
             base.OnAppearing();
 
-            ClientesDatabase clientesDatabase = await ClientesDatabase.Instance;
-            LVClientes.ItemsSource = await clientesDatabase.ClientesObtenerTodos();
+            /*ClientesDatabase clientesDatabase = await ClientesDatabase.Instance;
+            LVClientes.ItemsSource = await clientesDatabase.ClientesObtenerTodos();*/
+
+            LVClientes.ItemsSource =  await ObtenerClientesAsync();
         }
 
         private async void LVClientes_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -45,6 +47,13 @@ namespace LocalStorageDb.Views
             {
                 BindingContext = cliente
             });
+        }
+
+
+        private async Task<List<Cliente>> ObtenerClientesAsync()
+        {
+            RestService service = new RestService();
+            return await service.ObtenerClientes();
         }
     }
 }
