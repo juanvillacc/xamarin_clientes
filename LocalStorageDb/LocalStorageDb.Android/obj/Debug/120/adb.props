@@ -1,2 +1,2 @@
-AdbTarget=-s TGGQRSINYLUOUCFE
+AdbTarget=-s 127.0.0.1:21503
 AdbOptions=
